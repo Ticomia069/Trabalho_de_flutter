@@ -1,0 +1,44 @@
+name: habit_tracker
+description: "Uma aplicação simples para registar hábitos diários."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+# Dependências principais da aplicação
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Para o banco de dados local SQLite
+  sqflite: ^2.3.2
+  path: ^1.9.0
+
+  # Para fazer requisições a APIs externas
+  http: ^1.2.1
+
+  # Para formatação de datas e números
+  intl: ^0.18.1
+  
+  # Para criar os gráficos de estatísticas
+  fl_chart: ^0.67.0
+
+  # Ícones padrão no estilo iOS
+  cupertino_icons: ^1.0.6
+
+# Dependências usadas apenas durante o desenvolvimento e testes
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Ferramenta para análise de código e boas práticas
+  flutter_lints: ^3.0.0
+
+  # Necessário para que o sqflite funcione em ambientes de desktop (Windows, macOS, Linux)
+  sqflite_common_ffi: ^2.3.3
+
+# Configurações específicas do Flutter
+flutter:
+  uses-material-design: true

@@ -1,60 +1,16 @@
-# Trabalho_de_flutter
+# job_flutter
 
-# Habit Tracker App
+A new Flutter project.
 
-Um aplicativo Flutter para rastrear hábitos diários, com armazenamento local em SQLite, estatísticas gráficas e frases motivacionais de uma API externa.
+## Getting Started
 
-## Recursos
+This project is a starting point for a Flutter application.
 
-- Cadastro e listagem de hábitos
-- Marcação de hábitos concluídos
-- Estatísticas semanais e mensais com gráficos
-- Frases motivacionais diárias (via [Quotable API](https://api.quotable.io))
-- Armazenamento local com SQFlite
-- Interface organizada em múltiplas telas
+A few resources to get you started if this is your first Flutter project:
 
-## Estrutura do Projeto
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-```
-lib/
-├── main.dart
-├── models/
-│   └── habit.dart
-├── services/
-│   ├── database_service.dart
-│   └── quote_service.dart
-├── widgets/
-│   └── habit_tile.dart
-├── screens/
-│   ├── home_screen.dart
-│   ├── add_habit_screen.dart
-│   ├── habit_list_screen.dart
-│   ├── habit_detail_screen.dart
-│   ├── statistics_screen.dart
-│   └── settings_screen.dart
-```
-
-## Dependências
-
-Adicione estas dependências ao seu `pubspec.yaml`:
-
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  sqflite: ^2.3.0
-  path: ^1.8.3
-  http: ^0.14.0
-  charts_flutter: ^0.12.0
-```
-
-## Como rodar
-
-```bash
-flutter pub get
-flutter run
-```
-
-## Licença
-
-Este projeto está sob a licença MIT.
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
